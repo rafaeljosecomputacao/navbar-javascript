@@ -3,11 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="software development company">
-    <meta name="keywords" content="developer, programming, systems, technology">
-    <title>Dev Tech</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Navbar</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +16,57 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    
+    <!-- Header -->
+    <header class="navbar">
+        <div class="navbar-brand">
+            <a href="">Dev<span>Force</span></a>
+        </div>
+        <div class="navbar-toggle">
+            <button class="navbar-toggle-button">
+                <i class="bi bi-three-dots-vertical"></i>
+            </button>
+        </div>
+        <nav class="navbar-items">
+            <ul>
+                <li class="navbar-item">
+                    <a href="">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="">Services</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navbar-items navbar-items-right">
+            <ul>
+                <li class="navbar-item-right">
+                    <a href="">Register</button>
+                </li>
+                <li class="navbar-item-right login-button">
+                    <a href="">Login</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main --> 
+    <main class="main">
+        <div class="main-text">
+            <h2>Welcome to</h2>
+            <h1>Dev Force</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="main-button">
+                <i class="bi bi-rocket"></i>
+                Get Started
+            </button>
+        </div>
+        <div class="main-image">
+            <img src="img/dev.svg" alt="Developer">           
+        </div>
+    </main>   
 </body>
 </html>
